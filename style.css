@@ -1,0 +1,126 @@
+h1 {
+    font-family: 'Bebas Neue';
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h3 {
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background: url(huerto%202.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+} 
+#content {
+    font-family: 'Poppins', 'sans-serif';
+    column-count: 3;
+    padding: 0;
+    margin: 0;
+    font-size: 19px
+}
+#content p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+#header{
+    width: 100%;
+    background-color: rgba(0,0,0,.2)
+}
+#header ul{
+    text-align: center;
+}
+#header ul li{
+    list-style: none;
+    display: inline-block;
+}
+#header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+}
+#slider {
+    width: 88vw;
+    height: 20vh;  
+}
+#slider-content {
+    list-style: none;
+    height:100;
+    display: flex;
+    animation: scrolling 10s linear infinite;
+}
+@keyframes scrolling{
+    0% { transform:  translateX(0); }
+    100% {transform: translateX(-180vw); }
+}
+#slider-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    flex-shrink: 0;
+    font-size: 5rem;
+}
+#slider-content img{
+    float: left;
+    height:200px;
+    width:400px;
+}
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#content2{
+    column-count: 2;
+    font-size: 20px;
+}
+#slider2 {
+    width: 88vw;
+    height: 20vh;  
+}
+#slider-content2 {
+    list-style: none;
+    height:100;
+    display: flex;
+    animation: scrolling 15s linear infinite;
+}
+@keyframes scrolling{
+    0% { transform:  translateX(0); }
+    100% {transform: translateX(-180vw); }
+}
+#slider-content2 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    flex-shrink: 0;
+    font-size: 5rem;
+}
+#slider-content2 img{
+    float: left;
+    height:400px;
+    width:300px;
+}
+#content3{
+    font-size: 30px;
+}
+#content3 img {
+    float: left;
+    padding: 15px;
+    height: 350px;
+}
+#content4{
+    font-size: 12px;
+}
